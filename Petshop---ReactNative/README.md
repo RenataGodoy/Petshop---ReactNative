@@ -1,11 +1,18 @@
-# Sample Snack app
+# Petshop App - React Native
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este é um aplicativo móvel desenvolvido com **React Native** e **Firebase** para um petshop. O app permite que os clientes marquem procedimentos para seus animais de estimação e gerenciem o cadastro dos mesmos. O projeto foi desenvolvido no **Snack** para protótipos rápidos e testes.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Tecnologias Utilizadas
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- **React Native**: Framework para construção do aplicativo móvel.
+- **Firebase**: Banco de dados em tempo real para armazenar e gerenciar os dados dos clientes e seus animais.
+- **Snack**: Ambiente de desenvolvimento online para testar e prototipar apps em React Native.
+- **Expo**: Ferramenta para facilitar o desenvolvimento de apps em React Native.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Funcionalidades
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- **Cadastro de Cliente**: Usuários podem se autenticar como clientes.
+- **Cadastro de Animal**: Cada cliente pode cadastrar um ou mais animais.
+- **Agendamento de Procedimentos**: Os clientes podem marcar procedimentos para seus animais com escolha de data e hora.
+- **Gerenciamento de Procedimentos**: Visualização dos procedimentos disponíveis e agendados para cada animal.
+
