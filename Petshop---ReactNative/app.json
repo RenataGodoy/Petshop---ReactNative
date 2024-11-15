@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "android": {
+      "googleServicesFile": "./google-services.json"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/perff",
+      "@react-native-firebase/crashlytics"
+    ]
+  }
+}
